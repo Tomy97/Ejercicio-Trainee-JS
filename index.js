@@ -78,12 +78,12 @@ function miVehiculoMasBarato() {
 
 function buscarModeloConY(){
     let vehiculoConY =[];
-    
+
     for (let i = 0; i < vehiculos.length; i++) {
             const vehiculo = vehiculos[i];
             if(vehiculo.modelo.includes("Y")==true){
                 vehiculoConY.push(vehiculo);
-            }    
+            }
     }
          return vehiculoConY
 }
@@ -91,17 +91,6 @@ function buscarModeloConY(){
 
 // Ejercicio Extra
 
-// function misVehiculosOrdenados() {
-//     let vehiculosOrdenaosMaM;
-//     for (let i = 0; i < vehiculos.length; i++) {
-//         const vehiculosOrdenados = vehiculos[i];
-//         if (vehiculosOrdenados == undefined) {
-//             vehiculosOrdenados = vehiculos
-//         } else if( vehiculosOrdenados < vehiculoMasCaro)
-//             ve
-//     }
-//     return vehiculosOrdenaosMaM
-// }
 
 // Ejercicio N°1
 
